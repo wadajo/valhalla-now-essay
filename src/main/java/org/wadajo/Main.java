@@ -17,6 +17,6 @@ public class Main {
     }
 
     public static Libro obtenerUnEjemplar() {
-        return new Libro(1L, "Borges", "El libro de arena");
+        return new Libro(1L, "Borges", "El libro de arena", 1);
     }
 }
