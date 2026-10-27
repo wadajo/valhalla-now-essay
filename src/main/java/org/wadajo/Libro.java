@@ -10,6 +10,6 @@ public value record Libro(Long id,
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Libro libro = (Libro) o;
-        return id.equals(libro.id);
+        return id.equals(libro.id) && ejemplar.equals(libro.ejemplar);
     }
 }
